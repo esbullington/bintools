@@ -1,6 +1,6 @@
 {
   "name": "bintools",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Basic binary utils meta-package (ncp, rimraf, mkdirp) for Node.js, for use in cross-platform NPM scripts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
