@@ -1,14 +1,14 @@
 {
   "name": "bintools",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Basic binary utils meta-package (ncp, rimraf, mkdirp) for Node.js, for use in cross-platform NPM scripts",
-  "bin" {
-    "rimraf": "rimraf",
-    "ncp": "ncp",
-    "mkdirp": "mkdirp"
-  }
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ncp": "./bin/ncp.js",
+    "mkdirp": "./bin/mkdirp.js",
+    "rimraf": "./bin/rimraf.js"
   },
   "keywords": [
     "ncp",
@@ -20,6 +20,7 @@
   "dependencies": {
     "mkdirp": "^0.5.1",
     "ncp": "^2.0.0",
-    "rimraf": "^2.4.1"
+    "rimraf": "^2.4.1",
+    "minimist": "^1.1.1"
   }
 }
