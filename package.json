@@ -1,0 +1,25 @@
+{
+  "name": "bintools",
+  "version": "0.0.1",
+  "description": "Basic binary utils meta-package (ncp, rimraf, mkdirp) for Node.js, for use in cross-platform NPM scripts",
+  "bin" {
+    "rimraf": "rimraf",
+    "ncp": "ncp",
+    "mkdirp": "mkdirp"
+  }
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ncp",
+    "mkdirp",
+    "rimraf"
+  ],
+  "author": "Eric S. Bullington",
+  "license": "MIT",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0",
+    "rimraf": "^2.4.1"
+  }
+}
