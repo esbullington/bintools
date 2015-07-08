@@ -1,6 +1,6 @@
 {
   "name": "bintools",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Basic binary utils meta-package (ncp, rimraf, mkdirp) for Node.js, for use in cross-platform NPM scripts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,6 +15,13 @@
     "mkdirp",
     "rimraf"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esbullington/bintools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/esbullington/bintools/issues"
+  },
   "author": "Eric S. Bullington",
   "license": "MIT",
   "dependencies": {
